@@ -3,6 +3,12 @@ main {
   background: #885df1;
 }
 
+button {
+  background: #885df1;
+  border-radius: 20px;
+  border: none;
+}
+
 .glass {
   background: #fafafa;
   background: linear-gradient(
@@ -16,27 +22,6 @@ main {
   width: 60%;
   z-index: 3;
   backdrop-filter: blur(30px);
-}
-
-.dashboard {
-  flex: 1;
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
-  border-radius: 23px;
-}
-
-.link {
-  display: flex;
-  justify-content: space-around;
-  margin: 10px 0;
-  padding: 5px 60px;
-}
-
-.courses {
-  flex: 1; 
 }
 
 .circle1,
@@ -61,4 +46,29 @@ main {
 .circle2 {
   bottom: 5%;
   left: 10%;
+}
+
+.dashboard {
+  flex: 1;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 23px;
+}
+
+.link {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+  padding: 5px 60px;
+}
+
+.link h2 {
+  padding: 0 30px;
+}
+
+.courses {
+  flex: 1;
 }
