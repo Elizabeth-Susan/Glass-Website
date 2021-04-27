@@ -1,3 +1,7 @@
+body {
+  color: #880e4f;
+}
+
 main {
   min-height: 100vh;
   background: #885df1;
@@ -7,6 +11,11 @@ button {
   background: #885df1;
   border-radius: 20px;
   border: none;
+}
+
+button:hover {
+  color: #311b92;
+  background: #ba68c8;
 }
 
 .glass {
@@ -71,4 +80,8 @@ button {
 
 .courses {
   flex: 1;
+}
+
+.react-icon {
+  color: #8be3fc;
 }
