@@ -1,12 +1,42 @@
 main {
   min-height: 100vh;
   background: #6ddbe3;
-  display: flex;
-  align-items: center;
 }
 
 .glass {
   background: #fafafa;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 20px;
   min-height: 80vh;
-  /* width: 60%; */
+  width: 60%;
+  z-index: 3;
+  backdrop-filter: blur(30px);
+}
+
+.circle1,
+.circle2 {
+  background: #ffffff;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle1 {
+  top: 5%;
+  right: 15%;
+}
+
+.circle2 {
+  bottom: 5%;
+  left: 10%;
 }
